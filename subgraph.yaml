@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: arbitrum-one
+    network: metis-goerli
     source:
-      address: '0x6EcCab422D763aC031210895C81787E87B43A652'
+      address: '0xDc4695b0F3FFfA630A3F6d78ABEF72a4927Ceed2'
       abi: Factory
-      startBlock: 35061163
+      startBlock: 2192618
 #      startBlock: 32592094
     mapping:
       kind: ethereum/events
@@ -35,7 +35,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: arbitrum-one
+    network: metis-goerli
     source:
       abi: Pair
     mapping:
