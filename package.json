@@ -11,7 +11,9 @@
     "deploy-arbitrum": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ --product hosted-service camelotlabs/camelot-amm",
     "deploy-arbitrum-testnet": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ --product hosted-service camelotlabs/camelot-testnet-amm",
     "deploy-staging": "graph deploy $THE_GRAPH_GITHUB_USER/$THE_GRAPH_SUBGRAPH_NAME /Uniswap --ipfs https://api.staging.thegraph.com/ipfs/ --node https://api.staging.thegraph.com/deploy/",
-    "watch-local": "graph deploy camelotlocal --watch --debug --node http://subgraph.beta.camelot.exchange:8020/ --ipfs http://subgraph.beta.excalibur.exchange:5001"
+    "watch-local": "graph deploy camelotlocal --watch --debug --node http://subgraph.beta.camelot.exchange:8020/ --ipfs http://subgraph.beta.excalibur.exchange:5001",
+    "deploy-metis-goerli": "graph deploy hercules-metis-goerli --access-token <Access-Token> --ipfs http://ipfs.0xgraph.xyz:5001 --node http://api.0xgraph.xyz/deploy/",
+    "deploy-metis-andromeda": "graph deploy hercules-metis-andromeda --access-token <Access-Token> --ipfs http://ipfs.0xgraph.xyz:5001 --node http://api.0xgraph.xyz/deploy/"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.16.0",
